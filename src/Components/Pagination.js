@@ -19,7 +19,7 @@ setData(data)
 }
 catch(e)
 {
-    alert(e.message)
+    alert('failed to fetch data')
 }
 }
 useEffect(()=>{
