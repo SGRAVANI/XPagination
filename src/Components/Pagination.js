@@ -19,7 +19,7 @@ setData(data)
 }
 catch(e)
 {
-    console.error(e)
+    alert(e.message)
 }
 }
 useEffect(()=>{
