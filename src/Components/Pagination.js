@@ -57,6 +57,8 @@ fetchData()
 //     return list;
 // }
 function handleNext() {
+    if(index<=data.length && index+10<=data.length )
+    {
     if (data.length > index) {
         if (index + 10 < data.length) {
             setIndex(prev => prev + 10);
@@ -65,6 +67,7 @@ function handleNext() {
         }
         setPage(prev => prev + 1);
     }
+}
 }
 
 function generateData(partialData) {
